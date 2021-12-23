@@ -31,6 +31,7 @@ p {
 }
 
 .nav {
+  font-family: Arial;
   position: relative;
   margin: 0 15%;
   text-align: right;
@@ -48,7 +49,7 @@ p {
     margin: 3.2em 0;
 }    
 
-.nav a {
+a {
       line-height: 5em;
       text-transform: uppercase;
       text-decoration: none;
@@ -58,19 +59,19 @@ p {
       transition: all ease-out 300ms;
     }
 
-.nav &.active a {
+.active a {
       color: white;
     }
     
-.nav &:not(.active)::after {
+:not(.active)::after {
       opacity: 0.2;
     }
     
-.nav &:not(.active):hover a {
+:not(.active):hover a {
       color: rgba(#FFF, 0.75);
     }
     
-.nav &::after {
+::after {
       content: '';
       position: absolute;
       width: 100%;
