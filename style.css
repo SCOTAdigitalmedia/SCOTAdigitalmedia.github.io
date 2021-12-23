@@ -16,13 +16,13 @@ body {
 
 h1 {
   font-family: Lobster;
-  font-size: 70vw;
+  font-size: 12vw;
   text-align: center;
 }
 
 h2 {
   font-family: Lobster;
-  font-size: 50vw;
+  font-size: 2vw;
   text-align: center;
 }
 
@@ -47,7 +47,7 @@ p {
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 1vw;
   color: #CFBCFB;
   display: block;
 }
