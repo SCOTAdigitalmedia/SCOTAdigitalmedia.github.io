@@ -1,7 +1,21 @@
 html {
   font-family: Arial;
   font-size: 16px;
-  background: #5e42a6;
+  background: #CFBCFB;
+}
+
+body {
+    color: #312450;
+    font-family: Lobster;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+p {
+    font-size: 2em;
+    font-family: monospace;
 }
 
 .sidebar {
