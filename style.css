@@ -103,6 +103,10 @@ body {
     margin-top: 20px;
 }
 
+.recipe-img {
+  width: 25%;
+}
+
 .BIGDIV {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
