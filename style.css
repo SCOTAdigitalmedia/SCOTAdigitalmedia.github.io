@@ -14,19 +14,19 @@ body {
   padding: 0px 10px;
 }
 
-h1 {
+.h1Lobster {
   font-family: Lobster;
   font-size: 12vw;
   text-align: center;
 }
 
-h2 {
+.h2Lobster {
   font-family: Lobster;
   font-size: 3vw;
   text-align: center;
 }
 
-p {
+.pmonospace {
     font-family: monospace;
     text-align: center;
 }
