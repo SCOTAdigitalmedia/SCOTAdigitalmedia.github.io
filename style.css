@@ -103,12 +103,17 @@ body {
     margin-top: 20px;
 }
 
+.BIGDIV {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2vw;
+}
+
 /* The flip card container*/
 .flip-card {
   background-color: transparent;
-  width: 300px;
-  height: 300px;
-  border: 1px solid #f1f1f1;
+  width: 20vw;
+  height: 20vw;
   perspective: 1000px;
 }
 
@@ -118,7 +123,7 @@ body {
   width: 100%;
   height: 100%;
   text-align: center;
-  transition: transform 0.8s;
+  transition: transform 1s;
   transform-style: preserve-3d;
 }
 
@@ -139,7 +144,7 @@ body {
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: #bbb;
+  background-color: #cfbcfb;
   color: black;
 }
 
@@ -150,4 +155,14 @@ body {
   font-size: 16px;
   font-family: Quicksand;
   transform: rotateY(180deg);
+}
+
+/* If the screen size is 600px wide or less, set the font-sizes smaller */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 10px;
+  }
+  p {
+    font-size: 5px;
+  }
 }
