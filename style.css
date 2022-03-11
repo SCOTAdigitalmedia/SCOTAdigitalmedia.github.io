@@ -105,6 +105,23 @@ body {
   width: 25%;
 }
 
+.recipes-list{
+  position: relative;
+  text-align: center;
+  color: white;
+  -webkit-text-fill-color: black; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .BIGDIV {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
