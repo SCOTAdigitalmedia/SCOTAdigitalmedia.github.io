@@ -160,12 +160,12 @@ body {
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
   background-color: #cfbcfb;
-  color: black;
+  color: #312450;
 }
 
 /* Style the back side */
 .flip-card-back {
-  background-color: black;
+  background-color: #312450;
   color: white;
   font-size: 14px;
   font-family: Quicksand;
