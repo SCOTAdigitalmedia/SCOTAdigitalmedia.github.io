@@ -186,10 +186,7 @@ body {
 
 .wrapper {
     display: grid;
+    align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1em;    
     }
-
-.textcenter {
-    text-align: center;
-}
