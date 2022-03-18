@@ -190,3 +190,8 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1em;    
     }
+
+.recipetitle {
+  padding-left: 1em;
+  vertical-align: middle;
+}
